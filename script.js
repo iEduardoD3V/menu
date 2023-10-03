@@ -1,9 +1,13 @@
 function clickMenu(){
 
-    if (mobMenu.style.visibility == 'visible'){
-        mobMenu.style.visibility = 'hidden'
+    if (mobMenu.style.display == 'block'){
+        mobMenu.style.display = 'none'
     } else {
-        mobMenu.style.visibility = 'visible'
+        mobMenu.style.display = 'block'
     }
-    
+   
 }
+const iconBt = document.querySelector("#iconBt")
+iconBt.addEventListener("click", (e) =>{ 
+
+}) 
