@@ -58,6 +58,10 @@ header {
   cursor: pointer;
   box-shadow: 1px 4px rgb(0, 0, 0);
 }
+.logo:hover {
+  box-shadow: 5px 4px rgb(255, 255, 255);
+  transition: 0.5s;
+}
 .perfil {
   height: 50px;
   width: 50px;
@@ -108,55 +112,46 @@ header {
     width: 50px;
     color: #0f0f0f;
     transition: 0.5s;
-  
   }
 }
-.menuMobile li i{
- display: flex;
+.menuMobile li i {
+  display: flex;
   padding-right: 8px;
-  
- 
 }
-main{
+main {
   height: 100vh;
 }
 
 /* FOOTER */
 
-
 footer {
   background-color: #0f0f0f;
   width: 100%;
- 
 }
 .footer_content {
   display: flex;
   justify-content: space-between;
   padding: 2rem;
-  
 }
-.footerList{
+.footerList {
   list-style: none;
 }
-.footerListMedia{
+.footerListMedia {
   list-style: none;
   display: flex;
   gap: 3rem;
 }
-.footerListMedia img{
+.footerListMedia img {
   width: 50px;
 }
-.directed{
+.directed {
   margin-top: 1rem;
   color: #ffffff;
 }
-
-
-
-
-
-
-
+.iconGit {
+  background-color: #ffffff;
+  border-radius: 10px;
+}
 
 @media screen and (max-width: 768px) {
   .menuItem {
@@ -165,7 +160,7 @@ footer {
   .logo {
     margin: 0 auto;
   }
-  .perfil{
+  .perfil {
     display: block;
   }
   .mobileIcon {
@@ -198,18 +193,16 @@ footer {
     background-color: #0f0f0f;
     position: relative;
     top: 6px;
-    
   }
-  .footer_content{
+  .footer_content {
     display: flex;
-   flex-direction: column;
-   justify-content: center;
-   align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
-  .directed{
+  .directed {
     padding: 2rem;
   }
-  
 }
 @media screen and (max-width: 1024px) {
   .logo h1 {
@@ -219,18 +212,16 @@ footer {
   .menuItem li a {
     margin: 0;
   }
-
 }
 
-.mobMenu{
+.mobMenu {
   animation: efeito 0.3s linear;
-
 }
- @keyframes efeito  {
-  from{
+@keyframes efeito {
+  from {
     transform: translateX(-200px);
   }
-  to{
+  to {
     transform: translateX(0px);
   }
- }
+}
