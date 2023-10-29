@@ -3,7 +3,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Abel", sans-serif;
+  font-family: "Noto Sans KR", "Teko", "Oswald", sans-serif;
 }
 body {
   background-color: #ffffff;
@@ -32,18 +32,20 @@ header {
   display: flex;
   justify-content: center;
   text-align: center;
+  align-items: center;
   color: white;
   text-decoration: none;
   font-size: 1.3rem;
-  margin: 0 1rem;
+  margin: -0.5rem 0rem 0rem 3rem;
   width: 100px;
+  height: 40px;
+  font-family: "Noto Sans KR", "Teko", "Oswald", sans-serif;
   &:hover {
     background-color: #ffffff;
     width: 100px;
     color: #0f0f0f;
-    border-radius: 5px;
-    transition: 0.5s;
-    box-shadow: 0px 2px 5px #ffffff;
+    border-radius: 10px;
+    transition: 0.7s;
   }
 }
 .logo {
@@ -68,16 +70,29 @@ header {
   background-color: #ffffff;
   border-radius: 50px;
   box-shadow: 1px 4px rgb(0, 0, 0);
+  cursor: pointer;
 }
-.perfil h1 {
+.perfil i {
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
-  font-size: 0.85rem;
+  font-size: 1.5rem;
   height: 50px;
   width: 50px;
 }
+.perfil span {
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  text-align: center;
+  color: #ffffff;
+  font-size: 1rem;
+  font-weight: 700;
+  margin-top: 5px;
+}
+
+/* MOBILE */
 .mobileIcon {
   font-size: 1.5rem;
   color: #ffffff;
@@ -96,7 +111,6 @@ header {
 .mobMenu {
   display: none;
 }
-/* MOBILE */
 .menuMobile li a {
   display: none;
   font-family: "Abel", sans-serif;
@@ -127,6 +141,9 @@ main {
 footer {
   background-color: #0f0f0f;
   width: 100%;
+}
+footer .logo{
+  font-size: 0.8rem;
 }
 .footer_content {
   display: flex;
@@ -182,6 +199,7 @@ footer {
     align-items: left;
     justify-content: left;
     text-align: center;
+    font-family: "Noto Sans KR", "Teko", "Oswald", sans-serif;
   }
   .menuMobile li a:hover {
     width: 200px;
@@ -210,18 +228,21 @@ footer {
     width: 80px;
   }
   .menuItem li a {
-    margin: 0;
+    margin: -0.5rem 1rem;
+    font-family: "Noto Sans KR", "Teko", "Oswald", sans-serif;
   }
 }
 
 .mobMenu {
-  animation: efeito 0.3s linear;
+  animation: efeito 0.4s linear;
 }
+
+
 @keyframes efeito {
   from {
-    transform: translateX(-200px);
+    transform: translateX(-100%);
   }
   to {
-    transform: translateX(0px);
+    transform: translateX(0%);
   }
 }
