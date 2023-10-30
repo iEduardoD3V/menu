@@ -116,7 +116,8 @@ header {
   align-items: center;
   justify-content: center;
   gap: 100px;
-  width: 1200px;
+  max-width: 1200px;
+  min-width: 300px;
   color: #ffffff;
   margin-top: 100px;
 }
@@ -265,6 +266,17 @@ footer .logo {
     margin: -0.5rem 1rem;
     font-family: "Noto Sans KR", "Teko", "Oswald", sans-serif;
   }
+  .boxCards {
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    width: 1000px;
+    color: #ffffff;
+    margin-top: 100px;
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -287,26 +299,26 @@ footer .logo {
   }
   .menuMobile {
     list-style: none;
-    display: flex;
     justify-content: center;
     gap: 30px;
   }
   .menuMobile li a {
+    padding: 1rem;
     display: flex;
-    text-align: center;
+    text-align: left;
     align-items: center;
-    justify-content: center;
+    justify-content: left;
     width: 120px;
     font-size: 1.2rem;
     font-family: "Noto Sans KR", "Teko", "Oswald", sans-serif;
   }
   .menuMobile li a:hover {
     width: 120px;
-    border-radius: 10px;
+    border-radius: 0px 10px 10px 0px;
   }
   .mobMenu {
     display: none;
-    width: 100%;
+    width: 200px;
     background-color: #0f0f0f;
     position: absolute;
     z-index: 1;
@@ -323,6 +335,17 @@ footer .logo {
   .directed {
     padding: 2rem;
   }
+  .boxCards {
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    width: 700px;
+    color: #ffffff;
+    margin-top: 100px;
+  }
 
   .mobMenu {
     animation: efeito 1s linear;
@@ -337,5 +360,10 @@ footer .logo {
       transform: translateZ(0%);
       opacity: 1;
     }
+  }
+}
+@media screen and (max-width: 425px) {
+  .boxCards {
+    width: 300px;
   }
 }
