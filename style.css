@@ -362,6 +362,11 @@ footer .logo {
     }
   }
 }
+@media screen and (max-width: 450px) {
+  .boxCards {
+    width: 300px;
+  }
+}
 @media screen and (max-width: 425px) {
   .boxCards {
     width: 300px;
