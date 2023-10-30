@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Noto Sans KR", "Teko", "Oswald", sans-serif;
+  }
+  body {
+    background-color: #111;
+    display: flex;
+    flex-direction: column;
+    min-height: 455vh;
+  }
+  body::-webkit-scrollbar {
+    width: 5px;
+  }
+  
+  body::-webkit-scrollbar-track {
+    background-color: #181818;
+  }
+  body::-webkit-scrollbar-thumb {
+    backdrop-filter: blur(20px);
+    background-color: rgba(255, 255, 255, 0.212);
+    border-radius: 20px;
+    border: 2px solid rgba(255, 255, 255, 0.253);
+    height: 90px;
+  }
+  .principalBox{
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    
+    justify-content: center;
+    align-items: center;
+    margin-top: 120px;
+    height: 100vh;
+    gap: 100px;
+  
+  }
+  .boxProdutos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(31, 31, 31);
+    border: 5px solid rgb(189, 189, 189);
+    border-radius: 5px;
+    width: 1500px;
+    height: 800px;
+  }
+  .boxProdutos h1{
+    text-wrap: nowrap;
+    color: #64646433;
+    font-size: 220px;
+    font-family: 'Russo One', sans-serif;
+    text-transform: uppercase;
+  }
+
+/* MOBILE */
+
+@media (max-width: 1024px) {
+ 
+  body{
+    background-color: #111;
+    display: flex;
+    flex-direction: column;
+    min-height: 555vh;
+  }
+  .boxProdutos{
+    width: 900px;
+  }
+}
+.boxProdutos h1{
+  font-size: 130px;
+}
+  
+@media (max-width: 768px) {
+ 
+  body{
+    background-color: #111;
+    display: flex;
+    flex-direction: column;
+    min-height: 600vh;
+  }
+  .boxProdutos{
+    width: 700px;
+  }
+}
+.boxProdutos h1{
+  font-size: 100px;
+}
+@media (max-width: 425px) {
+ 
+  .boxProdutos{
+    width: 400px;
+  }
+}
+.boxProdutos h1{
+  font-size: 55px;
+}
+@media (max-width: 375px) {
+ 
+  .boxProdutos{
+    width: 300px;
+  }
+}
+.boxProdutos h1{
+  font-size: 40px;
+}
+  
+

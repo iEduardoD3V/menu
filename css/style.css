@@ -77,6 +77,23 @@ header {
   border-radius: 10px;
   cursor: pointer;
   box-shadow: 1px 4px rgb(0, 0, 0);
+
+}
+.logo i{
+  font-size: 30px;
+  background: linear-gradient(rgb(0, 204, 255), rgb(0, 140, 255), rgb(54, 79, 221), rgb(0, 204, 255));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: logoEffect 10s infinite alternate; 
+  background-size: 110% 400%;
+}
+@keyframes logoEffect {
+  0% {
+    background-position-y: 0%;
+  }
+  100% {
+    background-position-y: 400%;
+  }
 }
 .logo:hover {
   box-shadow: 5px 4px rgb(255, 255, 255);
@@ -230,8 +247,22 @@ footer {
   margin-top: 8%;
   box-shadow: 0px 2px 5px 5px rgb(0, 0, 0);
 }
-footer .logo {
+footer .logo i {
   font-size: 0.8rem;
+  font-size: 30px;
+  background: linear-gradient(rgb(0, 204, 255), rgb(0, 140, 255), rgb(54, 79, 221), rgb(0, 204, 255));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: logoEffect 10s infinite alternate; 
+  background-size: 110% 400%;
+}
+@keyframes logoEffect {
+  0% {
+    background-position-y: 0%;
+  }
+  100% {
+    background-position-y: 400%;
+  }
 }
 .footer_content {
   display: flex;
