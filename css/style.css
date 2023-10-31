@@ -95,10 +95,6 @@ header {
     background-position-y: 400%;
   }
 }
-.logo:hover {
-  box-shadow: 5px 4px rgb(255, 255, 255);
-  transition: 0.5s;
-}
 .perfil {
   height: 50px;
   width: 50px;
