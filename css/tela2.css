@@ -111,8 +111,7 @@ display: none;
     font-size: 3rem;
   }
 }
-
-@media (max-width: 425px) {
+@media (max-width: 450px) {
  
   .boxProdutos{
     width: 400px;
