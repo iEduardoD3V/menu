@@ -36,40 +36,133 @@
     gap: 100px;
   
   }
-  .boxProdutos{
+  .boxProdutos1{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    background-image: url(../img/fundoProd.jpg);
     border: 5px solid rgb(189, 189, 189);
+    background-color: #8B0000; 
     border-radius: 5px;
-    background-size: cover;
     box-shadow: 0px 0px 8px 7px rgb(0, 0, 0);
     width: 1500px;
     height: 800px;
     overflow: hidden;
+    &.boxProdutos1 h1{
+      flex-wrap: nowrap;
+      color: #4949494b;
+      font-size: 6rem;
+      font-family: 'Russo One', sans-serif;
+      text-transform: uppercase;
+      position: absolute;
+      letter-spacing: 15px;
+      text-align: center;
+      background-size: cover;
+      margin-left: 60px;
+    }&.boxProdutos1 img{
+      position: relative;
+      top: 40px;
+      height: auto;
+      left: 800px;
+      width: 700px;
+    
+    }
   }
-  .boxProdutos h1{
-    flex-wrap: nowrap;
-    color: #64646433;
-    font-size: 8rem;
-    font-family: 'Russo One', sans-serif;
-    text-transform: uppercase;
-    position: absolute;
-    letter-spacing: 15px;
-    text-align: center;
-    background-size: cover;
+  .boxProdutos2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 5px solid rgb(189, 189, 189);
+    background-color: #D2691E;
+    border-radius: 5px;
+    box-shadow: 0px 0px 8px 7px rgb(0, 0, 0);
+    width: 1500px;
+    height: 800px;
+    overflow: hidden;
+    &.boxProdutos2 h1{
+      flex-wrap: nowrap;
+      color: #4949494b;
+      font-size: 6rem;
+      font-family: 'Russo One', sans-serif;
+      text-transform: uppercase;
+      position: absolute;
+      letter-spacing: 15px;
+      text-align: center;
+      background-size: cover;
+      margin-left: 60px;
+    }&.boxProdutos2 img{
+      position: relative;
+      top: 40px;
+      height: auto;
+      left: 800px;
+      width: 700px;
+    
+    }
   }
-  .boxProdutos img{
-    position: relative;
-    top: 40px;
-    height: auto;
-    left: 400px;
+  .boxProdutos3{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 5px solid rgb(189, 189, 189);
+    background-color: #DAA520	;
+    border-radius: 5px;
+    box-shadow: 0px 0px 8px 7px rgb(0, 0, 0);
+    width: 1500px;
+    height: 800px;
+    overflow: hidden;
+    &.boxProdutos3 h1{
+      flex-wrap: nowrap;
+      color: #4949494b;
+      font-size: 6rem;
+      font-family: 'Russo One', sans-serif;
+      text-transform: uppercase;
+      position: absolute;
+      letter-spacing: 15px;
+      text-align: center;
+      background-size: cover;
+      margin-left: 60px;
+    }&.boxProdutos3 img{
+      position: relative;
+      top: 40px;
+      height: auto;
+      left: 800px;
+      width: 700px;
+    
+    }
+  }
+  .boxProdutos4{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 5px solid rgb(189, 189, 189);
+    border-radius: 5px;
+    box-shadow: 0px 0px 8px 7px rgb(0, 0, 0);
+    background-color: #3CB371;
+    width: 1500px;
+    height: 800px;
+    overflow: hidden;
+    &.boxProdutos4 h1{
+      flex-wrap: nowrap;
+      color: #4949494b;
+      font-size: 6rem;
+      font-family: 'Russo One', sans-serif;
+      text-transform: uppercase;
+      position: absolute;
+      letter-spacing: 15px;
+      text-align: center;
+      background-size: cover;
+      margin-left: 60px;
+    }&.boxProdutos4 img{
+      position: relative;
+      top: 40px;
+      height: auto;
+      left: 850px;
+      width: 700px;
+    
+    }
+  }
+
+ 
   
-  }
-  .item4{
-    width: 700px;
-  }
 
 /* MOBILE */
 
@@ -102,7 +195,8 @@ display: none;
     background-color: #111;
     display: flex;
     flex-direction: column;
-    min-height: 600vh;
+  
+    height: 1200vh;
   }
   .boxProdutos{
     width: 700px;
