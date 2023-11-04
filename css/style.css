@@ -196,22 +196,13 @@ header {
 
 /* MOBILE */
 .mobileIcon {
+  display: none;
   font-size: 1.5rem;
   color: #ffffff;
   cursor: pointer;
-  display: none;
-  border-radius: 50%;
-  border: 2px solid white;
+  border-radius: 30%;
 }
-.mobileIconX{
-  font-size: 1.5rem;
-  color: #e70000;
-  cursor: pointer;
-  display: none;
-  border-radius: 50%;
-  border: 2px solid #e70000;
-  position: relative;
-}
+
 
 .mobileIcon i {
   display: flex;
@@ -219,8 +210,6 @@ header {
   align-items: center;
   width: 50px;
   height: 50px;
-  
-
 }
 .mobileIconX i {
   display: flex;
@@ -228,7 +217,6 @@ header {
   align-items: center;
   width: 50px;
   height: 50px;
-
 }
 .mobMenu {
   display: none;
@@ -340,11 +328,12 @@ footer .logo i {
   .mobileIcon {
     display: block;
     cursor: pointer;
-    &:hover {
-      background-color: #b9b9b927;
-      transition: 0.65s;
-    }
   }
+  .mobileIconX {
+    display: none;
+    cursor: pointer;
+  }
+
   .menuMobile {
     list-style: none;
     justify-content: center;
